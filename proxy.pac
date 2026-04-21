@@ -1,8 +1,8 @@
 function FindProxyForURL(url, host) {
-  if (shExpMatch(host, "*beta.platacard.*") ||
+  if (shExpMatch(host, "*beta.plata*") ||
       shExpMatch(host, "*beta.diftech.*") ||
-      shExpMatch(host, "*sandbox.platacard.*") ||
-      shExpMatch(host, "*mock-beta.platacard.*")
+      shExpMatch(host, "*sandbox.plata*") ||
+      shExpMatch(host, "*mock-beta.plata*")
   ) {
     return "PROXY 192.168.1.77:9090; DIRECT;";
   }
