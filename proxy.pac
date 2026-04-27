@@ -5,7 +5,7 @@ function FindProxyForURL(url, host) {
       shExpMatch(host, "*mock-beta.plata*") ||
       shExpMatch(host, "https://beta.plata.co/client.diftech*")
   ) {
-    return "PROXY 172.21.15.78:9090; DIRECT;";
+    return "PROXY 192.168.1.77:9090; DIRECT;";
   }
   return "DIRECT;";
 }
