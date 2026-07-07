@@ -1,5 +1,6 @@
 function FindProxyForURL(url, host) {
   if (shExpMatch(host, "*beta.plata*") ||
+      shExpMatch(host, "*beta.bancoplata*") ||
       shExpMatch(host, "*beta.diftech.*") ||
       shExpMatch(host, "*sandbox.plata*") ||
       shExpMatch(host, "*mock-beta.plata*") ||
